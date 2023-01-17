@@ -1,6 +1,6 @@
 <template>
   <div class="index">
-    index
+    <CardsList />
   </div>
 </template>
 

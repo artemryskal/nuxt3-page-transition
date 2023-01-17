@@ -2279,13 +2279,6 @@ ignore@^5.2.0:
   resolved "https://registry.yarnpkg.com/ignore/-/ignore-5.2.4.tgz#a291c0c6178ff1b960befe47fcdec301674a6324"
   integrity sha512-MAb38BcSbH0eHNBxn7ql2NH/kX33OkB3lZ1BNdh7ENeRChHTYsTvWrMubiIAMNS2llXEEgZ1MUOBtXChP3kaFQ==
 
-illusory@^2.0.3:
-  version "2.0.3"
-  resolved "https://registry.yarnpkg.com/illusory/-/illusory-2.0.3.tgz#97015d60438f6ca594fb1437cdac25b89377fb9f"
-  integrity sha512-UKGUKGy2JjgqVtJkii4QY6VwJTa0bNKA0r3YehWip9DcK/Q0z190Vx7yDDDd4tPWqZ+j9zsZQ0iVSmYKCUgxwg==
-  dependencies:
-    rematrix "^0.7.0"
-
 immutable@^4.0.0:
   version "4.2.2"
   resolved "https://registry.yarnpkg.com/immutable/-/immutable-4.2.2.tgz#2da9ff4384a4330c36d4d1bc88e90f9e0b0ccd16"
@@ -3556,11 +3549,6 @@ redis-parser@^3.0.0:
   dependencies:
     redis-errors "^1.0.0"
 
-rematrix@^0.7.0:
-  version "0.7.2"
-  resolved "https://registry.yarnpkg.com/rematrix/-/rematrix-0.7.2.tgz#09b59118a6b46fc054ff64b6992e4865f5569077"
-  integrity sha512-NYLmE17dX15eUPhngLMTKlRYwATxEhcRdn9LKtk/iOXHxDKglCZnD2MrMLKwLlB5FX8u9kF/9yMhlQJpeDcuPw==
-
 require-directory@^2.1.1:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/require-directory/-/require-directory-2.1.1.tgz#8c64ad5fd30dab1c976e2344ffe7f792a6a6df42"
@@ -4162,13 +4150,6 @@ util-deprecate@^1.0.1, util-deprecate@^1.0.2, util-deprecate@~1.0.1:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/util-deprecate/-/util-deprecate-1.0.2.tgz#450d4dc9fa70de732762fbd2d4a28981419a0ccf"
   integrity sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==
-
-v-shared-element@^3.1.0:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/v-shared-element/-/v-shared-element-3.1.0.tgz#636d0dd96bea5c2564ae2955f03ca118c625c36f"
-  integrity sha512-/I9MbRKGE9NAo6YkwfMgC3onC7nLW15GAqEiEzq/smRok0NlXZE7mqqh3N5FzM/J9f6Cn1GkpIWNS5C92mEprw==
-  dependencies:
-    illusory "^2.0.3"
 
 vite-node@^0.25.2:
   version "0.25.8"

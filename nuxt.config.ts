@@ -1,5 +1,11 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  runtimeConfig: {
+    public: {
+      baseURL: process.env.API_BASE_URL || ''
+    }
+  },
+
   app: {
     head: {
       htmlAttrs: {
@@ -14,5 +20,5 @@ export default defineNuxtConfig({
 
   css: [
     '@/assets/scss/styles.scss'
-  ]
+  ],
 })
